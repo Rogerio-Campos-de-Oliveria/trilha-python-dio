@@ -5,7 +5,7 @@ print(data)
 print(date.today())
 
 
-data_hora = datetime(2023, 7, 10)
+data_hora = datetime(2023, 7, 10) # o idela é colocar o valor de horas, caso não seja preenchido ficará zerado
 print(data_hora)
 print(datetime.today())
 
