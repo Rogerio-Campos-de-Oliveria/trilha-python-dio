@@ -9,7 +9,7 @@ def meu_decorador(funcao):
 
 @meu_decorador
 def ola_mundo(nome, outro_argumento):
-    print(f"Olá mundo {nome}!")
+    print(f"Olá mundo {nome} e {outro_argumento}!")
 
 
 ola_mundo("João", 1000)
